@@ -1,11 +1,16 @@
 //your JS code here. If required.
-const h = document.getElementById("sizeInfo");
+
 
 
 function size(){
-    const width = window.innerWidth;
-    const height =window.innerHeight;
-    h.innerText=`Width: ${width} and Height: ${height}`;
+   const width = window.innerWidth;
+const height = window.innerHeight;
+const sizeInfoDiv = document.getElementById("sizeInfo");
+
+const sizeInfoH1 = document.createElement("h1");
+sizeInfoH1.innerText = `Width: ${width} Height: ${height}`;
+
+sizeInfoDiv.appendChild(sizeInfoH1);
 }
 
 window.addEventListener("resize",size);
