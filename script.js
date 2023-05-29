@@ -1,6 +1,6 @@
 //your JS code here. If required.
 
-
+size();
 
 function size(){
    const Width = window.innerWidth;
