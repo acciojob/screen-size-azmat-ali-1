@@ -7,10 +7,7 @@ function size(){
 const height = window.innerHeight;
 const sizeInfoDiv = document.getElementById("sizeInfo");
 
-const sizeInfoH1 = document.createElement("h1");
-sizeInfoH1.innerText = `Width: ${width} and Height: ${height}`;
-
-sizeInfoDiv.appendChild(sizeInfoH1);
+sizeInfoDiv.innerText = `Width: ${width} and Height: ${height}`;
 }
 
 window.addEventListener("resize",size);
