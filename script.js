@@ -3,11 +3,11 @@
 
 
 function size(){
-   const width = window.innerWidth;
-const height = window.innerHeight;
+   const Width = window.innerWidth;
+const Height = window.innerHeight;
 const sizeInfoDiv = document.getElementById("sizeInfo");
 
-sizeInfoDiv.innerText = `Width: ${width} and Height: ${height}`;
+sizeInfoDiv.innerText = `Width: ${Width} and Height: ${Height}`;
 }
 
 window.addEventListener("resize",size);
